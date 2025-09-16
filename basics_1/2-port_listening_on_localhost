@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Script that listens to p98
+
+nc -l localhost 98
