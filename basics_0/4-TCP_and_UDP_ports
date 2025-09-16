@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Script to display the list of open ports on a given host
+
+echo "Active Internet connections (servers only)"
+ss -tulnp
+
+echo "Active UNIX domain sockets (servers only)"
+ss -xlnp
